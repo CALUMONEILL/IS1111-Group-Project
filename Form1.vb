@@ -1,3 +1,3 @@
-﻿Public Class FrmThisThingOn
+﻿Public Class Form1
 
 End Class
