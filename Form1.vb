@@ -4,5 +4,7 @@
         'test test
 
         'another test
+
+        'TEST
     End Sub
 End Class
