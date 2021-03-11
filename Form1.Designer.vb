@@ -24,20 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.IS1111_GRP_PROJ_AccessDataSet = New IS1111_Group_Project.IS1111_GRP_PROJ_AccessDataSet()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.IS1111_GRP_PROJ_AccessDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'BindingSource1
-        '
-        Me.BindingSource1.DataSource = Me.IS1111_GRP_PROJ_AccessDataSet
-        Me.BindingSource1.Position = 0
-        '
-        'IS1111_GRP_PROJ_AccessDataSet
-        '
-        Me.IS1111_GRP_PROJ_AccessDataSet.DataSetName = "IS1111_GRP_PROJ_AccessDataSet"
-        Me.IS1111_GRP_PROJ_AccessDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Form1
         '
@@ -46,11 +34,9 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Name = "Form1"
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.IS1111_GRP_PROJ_AccessDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents BindingSource1 As BindingSource
-    Friend WithEvents IS1111_GRP_PROJ_AccessDataSet As IS1111_GRP_PROJ_AccessDataSet
 End Class
