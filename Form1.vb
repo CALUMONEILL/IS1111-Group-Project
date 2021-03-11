@@ -1,11 +1,6 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Is this still working
-        'test test
 
-        'another test
-
-        'TEST
 
 
 
@@ -32,12 +27,16 @@
 
         'The application has user data for three phone operators, with one password for all three
         'Output to Textbox that the inputted details are correct or incorrect
+
         'If username = "John" And password = "Password" Then
+
         'This makes the button that takes the user to the next page visible
+
         '   btnAge.Visible = True
         '   txtPasswordVer.Text = "Successful Login - Welcome, John"
 
         'The following code is a repeat of the above but rewritten to allow for two extra operators
+
         'ElseIf username = "Paul" And password = "Password" Then
         '   btnAge.Visible = True
         '   txtPasswordVer.Text = "Successful Login - Welcome, Paul"
@@ -48,8 +47,11 @@
 
         'Else
         'If the incorrect password or an invalid username is inputted into the respective textboxes, the following message will appear in the bottom-most textbox
+
         '   txtPasswordVer.Text = "Invalid Details - Please try again"
+
         'This makes the button that takes the user to next page invisible
+
         '   btnAge.Visible = False
         'End If
 
