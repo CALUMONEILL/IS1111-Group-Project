@@ -64,6 +64,17 @@ Namespace My
                 Return CType(Me("IS1111_GRP_PROJ_AccessConnectionString"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=""|DataDirectory|\db IS1111 GRP PROJ"& _ 
+            ".accdb""")>  _
+        Public ReadOnly Property db_IS1111_GRP_PROJConnectionString() As String
+            Get
+                Return CType(Me("db_IS1111_GRP_PROJConnectionString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 
