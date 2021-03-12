@@ -12,7 +12,7 @@
 
 
 
-
+        'conor checking'
 
         'Calum 7/3/21 Some code I used for my login, I had three different users.
         'Maybe we could use something like this for each worker but each one has a different button to bring them to the right form.
@@ -66,6 +66,10 @@
 
 
 
+
+    End Sub
+
+    Private Sub Form1_MouseEnter(sender As Object, e As EventArgs) Handles Me.MouseEnter
 
     End Sub
 End Class
