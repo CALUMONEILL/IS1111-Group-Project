@@ -25,19 +25,24 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Db_IS1111_GRP_PROJDataSet = New IS1111_Group_Project.db_IS1111_GRP_PROJDataSet()
+        Me.TblStaffTableAdapter = New IS1111_Group_Project.db_IS1111_GRP_PROJDataSetTableAdapters.tblStaffTableAdapter()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Db_IS1111_GRP_PROJDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BindingSource1
         '
+        Me.BindingSource1.DataMember = "tblStaff"
         Me.BindingSource1.DataSource = Me.Db_IS1111_GRP_PROJDataSet
-        Me.BindingSource1.Position = 0
         '
         'Db_IS1111_GRP_PROJDataSet
         '
         Me.Db_IS1111_GRP_PROJDataSet.DataSetName = "db_IS1111_GRP_PROJDataSet"
         Me.Db_IS1111_GRP_PROJDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'TblStaffTableAdapter
+        '
+        Me.TblStaffTableAdapter.ClearBeforeFill = True
         '
         'Form1
         '
@@ -53,4 +58,5 @@ Partial Class Form1
 
     Friend WithEvents BindingSource1 As BindingSource
     Friend WithEvents Db_IS1111_GRP_PROJDataSet As db_IS1111_GRP_PROJDataSet
+    Friend WithEvents TblStaffTableAdapter As db_IS1111_GRP_PROJDataSetTableAdapters.tblStaffTableAdapter
 End Class

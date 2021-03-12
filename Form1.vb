@@ -1,7 +1,8 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'IS1111_GRP_PROJ_AccessDataSet.tblTest' table. You can move, or remove it, as needed.
-        Me.TblTestTableAdapter.Fill(Me.IS1111_GRP_PROJ_AccessDataSet.tblTest)
+        'TODO: This line of code loads data into the 'Db_IS1111_GRP_PROJDataSet.tblStaff' table. You can move, or remove it, as needed.
+        Me.TblStaffTableAdapter.Fill(Me.Db_IS1111_GRP_PROJDataSet.tblStaff)
+
 
 
 
